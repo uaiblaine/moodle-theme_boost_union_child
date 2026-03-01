@@ -124,9 +124,17 @@ The example code is completed by a Behat test which verifies now and forever tha
 
 ### Modify a mustache template from Moodle core
 
-In the [extension-modify-mustache-template](https://github.com/moodle-an-hochschulen/moodle-theme_boost_union_child/tree/extension-modify-mustache-template) branch, we prepared some example code which shows you how to modify a mustache template from Moodle core in Boost Union Child.
+In the [extension-modify-mustache-core-template](https://github.com/moodle-an-hochschulen/moodle-theme_boost_union_child/tree/extension-modify-mustache-core-template) branch, we prepared some example code which shows you how to modify a mustache template from Moodle core in Boost Union Child.
 
 In the example, we copied the block.mustache template from Moodle core to Boost Union Child and modified in a way that the block controls are shown in the block footer now. The modified template will be used instantly as soon as Boost Union Child is the active theme.
+
+Of course, the example code is completed by a Behat test which verifies now and forever that the modified template is used in Boost Union Child.
+
+### Modify a mustache template from Boost Union
+
+In the [extension-modify-mustache-bu-template](https://github.com/moodle-an-hochschulen/moodle-theme_boost_union_child/tree/extension-modify-mustache-bu-template) branch, we prepared some example code which shows you how to modify a mustache template from Boost Union in Boost Union Child.
+
+In the example, we copied the infobanner-item.mustache template from Boost Union to Boost Union Child and modified in a way that the additional text is shown in the infobanner now. The modified template will be used instantly as soon as Boost Union Child is the active theme.
 
 Of course, the example code is completed by a Behat test which verifies now and forever that the modified template is used in Boost Union Child.
 
